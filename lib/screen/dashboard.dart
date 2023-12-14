@@ -35,15 +35,21 @@ class Dashboard extends StatelessWidget {
               },
             ),
             ListTile(
-              title: const Text('Formations'),
-              onTap: () {
-                Navigator.pushNamed(context, '/formation');
-              },
-            ),
-            ListTile(
               title: const Text('Absence'),
               onTap: () {
                 Navigator.pushNamed(context, '/absence');
+              },
+            ),
+            ListTile(
+              title: const Text('Info'),
+              onTap: () {
+                Navigator.pushNamed(context, '/info');
+              },
+            ),
+            ListTile(
+              title: const Text('Formations'),
+              onTap: () {
+                Navigator.pushNamed(context, '/formation');
               },
             ),
           ],
